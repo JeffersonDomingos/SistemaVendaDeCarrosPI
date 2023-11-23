@@ -1,0 +1,16 @@
+C:\Users\domin\eclipse-workspace\ProjetoIntegrador2023-1\src\main\java\com\projetointegrador\ProjetoIntegrador20231Application.java
+C:\Users\domin\eclipse-workspace\ProjetoIntegrador2023-1\src\main\java\com\projetointegrador\entidades\Carros.java
+C:\Users\domin\eclipse-workspace\ProjetoIntegrador2023-1\src\main\java\com\projetointegrador\usuarioRequest\UsuarioLoginRequest.java
+C:\Users\domin\eclipse-workspace\ProjetoIntegrador2023-1\src\main\java\com\projetointegrador\controller\ClienteController.java
+C:\Users\domin\eclipse-workspace\ProjetoIntegrador2023-1\src\main\java\com\projetointegrador\repository\CarrosRepository.java
+C:\Users\domin\eclipse-workspace\ProjetoIntegrador2023-1\src\main\java\com\projetointegrador\entidades\Cliente.java
+C:\Users\domin\eclipse-workspace\ProjetoIntegrador2023-1\src\main\java\com\projetointegrador\controller\UsuarioController.java
+C:\Users\domin\eclipse-workspace\ProjetoIntegrador2023-1\src\main\java\com\projetointegrador\services\UsuarioService.java
+C:\Users\domin\eclipse-workspace\ProjetoIntegrador2023-1\src\main\java\com\projetointegrador\usuarioRequest\AlterarSenhaRequest.java
+C:\Users\domin\eclipse-workspace\ProjetoIntegrador2023-1\src\main\java\com\projetointegrador\repository\UsuarioRepository.java
+C:\Users\domin\eclipse-workspace\ProjetoIntegrador2023-1\src\main\java\com\projetointegrador\exceptions\ResourceNotFoundException.java
+C:\Users\domin\eclipse-workspace\ProjetoIntegrador2023-1\src\main\java\com\projetointegrador\entidades\Usuario.java
+C:\Users\domin\eclipse-workspace\ProjetoIntegrador2023-1\src\main\java\com\projetointegrador\controller\AlterarSenhaController.java
+C:\Users\domin\eclipse-workspace\ProjetoIntegrador2023-1\src\main\java\com\projetointegrador\controller\CarrosController.java
+C:\Users\domin\eclipse-workspace\ProjetoIntegrador2023-1\src\main\java\com\projetointegrador\controller\LoginController.java
+C:\Users\domin\eclipse-workspace\ProjetoIntegrador2023-1\src\main\java\com\projetointegrador\repository\ClienteRepository.java

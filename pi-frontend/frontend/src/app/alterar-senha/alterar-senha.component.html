@@ -1,0 +1,25 @@
+<div class="col-md-6 offset-md-3">
+    <h3 class="cor">Alterar Senha</h3>
+    <form (ngSubmit)="alterarSenha()">
+      <div class="form-group">
+        <label class="cor">Login:</label>
+        <input type="text" class="form-control" id="login" [(ngModel)]="usuario.login" name="login">
+      </div>
+
+    <div class="form-group">
+      <label class="cor">Data de Nascimento:</label>
+        <input type="date" class="form-control" id="dataNascimento" [(ngModel)]="usuario.dataNascimento" name="dataNascimento">
+      
+      </div>
+      
+  
+      <div class="form-group">
+        <label class="cor">Nova Senha:</label>
+        <input type="password" class="form-control" id="novaSenha" [(ngModel)]="usuario.novaSenha" name="novaSenha">
+      </div>
+  
+      
+  
+      <button type="submit" class="btn btn-success">Alterar Senha</button>
+    </form>
+  </div>

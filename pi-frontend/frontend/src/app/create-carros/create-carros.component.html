@@ -1,0 +1,48 @@
+   <div class="col-md-6 offset-md-3">
+    
+    <h3 class="cor"> Cadastrar Usúarios </h3>
+    <form (ngSubmit) = "onSubmit()" >
+    
+        <div class="form-group">
+            <label class="cor"> Marca: </label>
+            <input type="text" class ="form-control" id = "marca"
+                [(ngModel)] = "carro.marca" name = "marca">
+        </div>
+        <div> </div>
+        <div class="form-group">
+            <label class="cor"> Modelo: </label>
+            <input type="text" class ="form-control" id = "modelo"
+                [(ngModel)] = "carro.modelo" name = "modelo">
+        </div>
+        <div> </div>
+        <div class="form-group">
+            <label class="cor">  Ano de Fabricação: </label>
+            <input type="number" class ="form-control" id = "anoFabricacao"
+                [(ngModel)] = "carro.anoFabricacao" name = "anoFabricacao">
+        </div>
+        <div> </div>
+        <div class="form-group">
+            <label class="cor"> Ano do Modelo: </label>
+            <input type="number" class ="form-control" id = "anoModelo"
+                [(ngModel)] = "carro.anoModelo"  name = "anoModelo">
+        </div>
+        <div> </div>
+        <div class="form-group">
+            <label class="cor"> Valor: </label>
+            <input type="text" class ="form-control" id = "valor"
+                [(ngModel)] = "carro.valor"  name = "valor">
+        </div>
+        <div> </div>
+        <div class="form-group">
+            <label class="cor"> Descrição: </label>
+            <input type="text" class ="form-control" id = "descricao"
+                [(ngModel)] = "carro.descricao" name = "descricao">
+        </div>
+        <div> </div>
+        <button class = "btn btn-success" (click)="saveCarro()"  >Cadastrar Carro</button>
+       
+       
+    
+    </form>
+    </div> 
+    

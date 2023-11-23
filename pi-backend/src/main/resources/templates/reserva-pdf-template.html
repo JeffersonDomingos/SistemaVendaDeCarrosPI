@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Reserva de Carro</title>
+</head>
+<body>
+	
+    <th:block th:each="cliente : ${cliente}">
+		<h2>Detalhes do Cliente e Reserva:</h2>
+    <p><b>Nome:</b> [[${cliente.nome}]]</p>
+    <p><b>Telefone:</b> [[${cliente.telefone}]]</p>
+    <p><b>Data de Interesse:</b> [[${#dates.format(cliente.dataInteresse, 'dd/MM/yyyy')}]]</p>
+     
+    <p><b>Carro Interessado:</b></p>
+    <p><b>Marca:</b> [[${cliente.carroInteressado.marca}]]</p>
+    <p><b>Modelo:</b> [[${cliente.carroInteressado.modelo}]]</p>
+    <p><b>Ano de Fabricação:</b> [[${cliente.carroInteressado.anoFabricacao}]]</p>
+    <p><b>Ano do Modelo:</b> [[${cliente.carroInteressado.anoModelo}]]</p>
+    <p><b>Valor:</b> R$ [[${cliente.carroInteressado.valor}]]</p>
+    <p><b>Descrição:</b> [[${cliente.carroInteressado.descricao}]]</p>
+        </th:block>
+    
+    </body>
+</html>

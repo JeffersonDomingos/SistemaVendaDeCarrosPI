@@ -1,0 +1,33 @@
+<div class="col-md-6 offset-md-3">
+    <h3 class="cor"> Confirmar Reserva</h3>
+    <form (ngSubmit) = "onSubmit()">
+    
+        <div class="form-group">
+            <label class="cor"> Nome: </label>
+            <input type="text" class ="form-control" id = "nome"
+                [(ngModel)] = "cliente.nome" name = "nome">
+        </div>
+        <div> </div>
+        <div class="form-group">
+            <label class="cor" > Telefone: </label>
+            <input type="text" mask="(00) 00000-0000" class ="form-control" id = "telefone"
+                [(ngModel)] = "cliente.telefone" name = "telefone">
+        </div>
+        <div> </div>
+        <div class="form-group">
+            <label class="cor" > Data de Interesse: </label>
+            <input type="text" class ="form-control" id = "dataInteresse"
+                [(ngModel)] = "cliente.dataInteresse" name = "dataInteresse">
+<br>
+                <div class="cor">
+                    <label class="cor"><b> Marca: </b></label>{{ carros.marca }}
+                </div>
+                <div class="cor">
+                    <label class="cor"><b> Modelo: </b></label>{{ carros.modelo }}
+                </div>
+                <div class="cor">
+                    <label class="cor"><b> Valor: R$ </b></label>{{ carros.valor }}
+                </div>
+<br>
+                <button (click) = "onSubmit"  class = "btn btn-success">Confirmar</button>
+        </div>

@@ -1,0 +1,41 @@
+<body class="body">
+    <h3 class="text-center" class="cor"> Lista de Reservas</h3>
+    
+    
+    <table class="table table-striped">
+    <thead>
+    <tr>
+        <th>Cliente</th>
+        <th>Telefone</th>
+        <th>Data do Interesse</th>
+        <th>Modelo</th>
+        <th> Ações </th>
+    
+    </tr>
+    
+    </thead>
+    
+    <tbody>
+    
+        
+    
+        <tr *ngFor = "let row of cliente">
+            
+            <td> {{ row.nome }} </td>
+            <td>  {{ row.telefone }} </td>
+            <td > {{ row.dataInteresse }} </td>
+            <td> {{ row.carroInteressado.modelo }} </td>
+            
+            <td>
+               
+                <button (click) = "removerReserva(row.id)" class="btn btn-danger" style="margin-left: 5px"> Deletar </button>
+                      </td>
+    
+        </tr>
+        <button (click) = "gerarPDF()" class="btn btn-info" style="margin-left: 5px">Gerar Relatório de Reservas</button> 
+    </tbody>
+    
+    </table>
+    </body>
+    
+

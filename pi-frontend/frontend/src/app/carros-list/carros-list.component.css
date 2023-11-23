@@ -1,0 +1,43 @@
+.table {
+  
+   
+    
+    margin: auto;
+    text-align: center;
+    width: 
+    80%;
+    height: 0px;
+    table-layout: fixed;
+
+
+}
+
+.btn-danger  {
+    margin-left: 100%;
+    margin-top: 5%;
+    width: 70%;
+   
+}
+
+.btn-info {
+    margin: auto;
+    margin-top: 5%;
+    width: 70%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    
+}
+
+.cor {
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.701);
+    text-align: center;
+    
+}
+
+.img {
+    width: 250px;
+    height: auto;
+}
+

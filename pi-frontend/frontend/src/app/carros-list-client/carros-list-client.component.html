@@ -1,0 +1,37 @@
+<body class="body">
+    <h3 class="text-center" class="cor"> Lista de Carros</h3>
+    
+    <table class="table table-striped">
+    <thead>
+    <tr>
+        <th>Apresentação</th>
+        <th>Marca</th>
+        <th>Modelo</th>
+        <th>Valor</th>
+        <th> Ações </th>
+    
+    </tr>
+    
+    </thead>
+    
+    <tbody>
+    
+        
+    
+        <tr *ngFor = "let row of carros">
+            <td><img [src]="'./assets/images/' + row.modelo.toLowerCase() + '.png'" alt="{{ row.modelo }}" class="img"></td>
+            <td> {{ row.marca }} </td>
+            <td> {{ row.modelo }} </td>
+            <td> {{ row.valor }} </td>
+            
+            <td>
+                <button (click) = "CarrosDetailsClient(row.id)" class="btn btn-info" style="margin-left: 5px">Tenho Interesse</button> 
+                     
+                      </td>
+    
+        </tr>
+    </tbody>
+    
+    </table>
+    </body>
+    

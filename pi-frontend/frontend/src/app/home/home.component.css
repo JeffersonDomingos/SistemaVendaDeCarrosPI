@@ -1,0 +1,19 @@
+.body{
+    background-color: rgb(255, 255, 255);
+    height: 90%;
+    width: 100%;
+    position: absolute;
+}
+
+.cor {
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.701);
+    text-align: center;
+}
+
+.img{
+
+    text-align: center;
+}
+
+

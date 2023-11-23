@@ -1,0 +1,48 @@
+
+<div class="col-md-6 offset-md-3">
+    <h3 class="cor"> Atualizar Carros</h3>
+    <form (ngSubmit) = "onSubmit()">
+    
+        <div class="form-group">
+            <label class="cor"> Marca: </label>
+            <input type="text" class ="form-control" id = "marca"
+                [(ngModel)] = "carros.marca" name = "marca">
+        </div>
+        <div> </div>
+        <div class="form-group">
+            <label class="cor"> Modelo: </label>
+            <input type="text" class ="form-control" id = "modelo"
+                [(ngModel)] = "carros.modelo" name = "modelo">
+        </div>
+        <div> </div>
+        <div class="form-group">
+            <label class="cor">  Ano de Fabricação: </label>
+            <input type="text" class ="form-control" id = "anoFabricacao"
+                [(ngModel)] = "carros.anoFabricacao" name = "anoFabricacao">
+        </div>
+        <div> </div>
+        <div class="form-group">
+            <label class="cor"> Ano de Modelo: </label>
+            <input type="text" class ="form-control" id = "anoModelo"
+                [(ngModel)] = "carros.anoModelo" name = "anoModelo">
+        </div>
+        <div class="form-group">
+            <label class="cor"> Valor: </label>
+            <input type="text" class ="form-control" id = "valor"
+                [(ngModel)] = "carros.valor" name = "valor">
+        </div>
+        <div> </div>
+        <div class="form-group">
+            <label class="cor"> Descrição: </label>
+            <input type="text" class ="form-control" id = "descricao"
+                [(ngModel)] = "carros.descricao" name = "descricao">
+        </div>
+        <div> </div>
+        <button class = "btn-success" (click)="updateCarros()">Atualizar Carro</button>
+       
+       
+    
+    </form>
+    </div> 
+    
+

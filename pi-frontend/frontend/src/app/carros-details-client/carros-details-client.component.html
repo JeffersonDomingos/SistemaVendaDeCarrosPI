@@ -1,0 +1,42 @@
+<h3 class="text-center" class="cor"> Detalhes dos Carros </h3>
+
+
+<body class="body">
+<div class="text-center">
+    
+    <div class="cor">
+        <label class="cor"><b> Marca: </b></label>{{ carros.marca}}
+    </div>
+    <div class="cor">
+        <label class="cor"><b> Modelo: </b></label>{{ carros.modelo}}
+    </div>
+    <div class="cor">
+        <label class="cor"><b> Ano de Fabricação: </b></label>{{ carros.anoFabricacao}}
+    </div>
+    <div class="cor">
+        <label class="cor"><b> Ano do Modelo: </b></label>{{ carros.anoModelo}}
+    </div>
+    <div class="cor">
+        <label class="cor"><b> Valor: </b></label>{{ carros.valor}}
+    </div>
+    <div class="cor">
+        <label class="cor"><b> Descrição: </b></label>{{ carros.descricao}}
+    </div>
+    <button  class="btn btn-info"> 
+        <a href="carros-list-client" routerlink="/carros-list-client" routerLinkActive="active" class="nav-link">
+        
+            Lista de Carros</a>  
+             
+    </button>
+
+    <button  class="btn btn-info"> 
+
+    <a (click) = "ConfirmarInteresseForm(id)"  class="nav-link">
+        
+        Reservar Carro</a>
+    </button>  
+
+   
+</div>
+
+</body>
